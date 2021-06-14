@@ -1,0 +1,9 @@
+server:
+  port: 8771
+spring:
+  application:
+    name: Nacos_Provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
